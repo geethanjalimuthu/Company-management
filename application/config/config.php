@@ -22,7 +22,7 @@
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/Company-management/';
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +34,7 @@ $config['base_url'] = '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -230,9 +230,10 @@ $config['cache_path'] = '';
 |
 | If you use the Encryption class or the Session class you
 | MUST set an encryption key.  See the user guide for info.
+ 	1AuWUFvQnFVrp5xC0e5eqHA6N9BO48i3
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'd9d2b1237db3d0ca4dc5f331a2ae3afebda8d9db';
 
 /*
 |--------------------------------------------------------------------------

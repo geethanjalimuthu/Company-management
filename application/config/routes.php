@@ -39,6 +39,12 @@
 */
 
 $route['default_controller'] = "welcome";
+$route['employer-registration'] = "employeraccess/register";
+$route['employer-login'] = "employeraccess/directLogin";
+$route['post-registration'] = "employeraccess/login";
+$route['post-employerlogin'] = "employeraccess/postEmployerLogin";
+$route['profile'] = "employeraccess/employerProfile";
+$route['logout'] = "employeraccess/logout";
 $route['404_override'] = '';
 
 
